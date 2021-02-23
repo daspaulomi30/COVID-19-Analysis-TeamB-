@@ -49,7 +49,7 @@ ui <- shinyUI(
                                         ),
                                   box(solidHeader = TRUE,background = "olive" , tableOutput("data"),width=9),
                                   
-                                  box(background = "orange" ,width = 12,tabsetPanel(
+                                  box(background = "orange" ,width = 12,tabsetPanel(  
                                       tabPanel("GEOGRAPHICAL DISTRIBUTION OF VACCINE", leafletOutput("people_vaccinated")))),
                                   
                                    )),
